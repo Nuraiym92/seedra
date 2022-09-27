@@ -1,0 +1,45 @@
+
+
+.navbar{
+    width:90%;
+    margin:0 auto;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+.menu ul{
+    display: flex;
+    
+}
+.links li{
+    margin-left: 2rem;
+    text-transform: uppercase;
+    list-style: none;
+   
+}
+li a{
+       text-decoration: none;
+       font-size: 1rem;
+       color:#70737C;
+}
+.social-icons{
+    display: flex;
+    gap:1rem;
+}
+.icon{
+    fill:#70737C;
+}
+.search-btn{
+    border-radius: 0.5rem;
+    height:2rem;
+    border-color: #70737C;
+}
+.wish-bar{
+    display: flex;
+    gap:1rem;
+}
+.wishbar-icon{
+    fill:#359740;
+}
