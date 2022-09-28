@@ -1,0 +1,37 @@
+@import "../../../global.scss";
+.products{
+    margin-top: 3rem;
+}
+.categories{
+    display:flex;
+    gap:1rem;
+    
+}
+.category-btn{
+ padding:4px 16px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap:1rem;
+font-size:1rem;
+text-transform: uppercase;
+background-color: $whiteColor;
+border-radius: 0.5rem;
+border-color:  $greyColor;
+}
+
+.single-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:1rem;
+    margin-top: 5rem;
+}
+.single-product{
+border:1px solid $greyColor;
+border-radius: 4px;
+ padding:1rem 1rem;
+}
+h3{
+    font-size:8px;
+}

@@ -1,8 +1,7 @@
 import React from 'react'
 import './hero.scss'
-import fireImg from "../../../images/fire.svg"
-import heroImg from "../../../images/hero-img.png"
-import rightCornerImg from "../../../images/hero-right-c.png"
+
+
 function Hero() {
   return (
     <div className='hero'>
@@ -14,7 +13,7 @@ function Hero() {
           seeds were tested and have the best germination ratings. Your easy growing experience is our guarantee</p>
       </div>
       <div className="hot-price">
-        <img src={fireImg} alt="" />
+        <img src='./images/fire.svg' alt="" />
         <span className='price-after'>$12.56</span>
         <span className='price-before'>$15.56</span>
       </div>
@@ -24,10 +23,10 @@ function Hero() {
       </div>
     
       </div>
-        <div className="hero-img">
+        {/* <div className="hero-img">
         <img className="hero-image" src={heroImg} alt="hero-img" />
         <img className='leaves-1' src={rightCornerImg} alt="rightcorner-img" />
-      </div>
+      </div> */}
       </div>
       
      </div>
